@@ -38,8 +38,7 @@ def load_all_chats():
                 date_str = conv.get("inserted_at", "")
                 
                 messages = []
-                # (здесь ваш старый код парсинга mapping, я его сократил для читаемости, 
-                #  но он должен быть точно таким же, как в прошлом app.py)
+                               
                 nodes = list(mapping.values())
                 nodes.sort(key=lambda n: (n.get("message") or {}).get("inserted_at", ""))
                 for node in nodes:

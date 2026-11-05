@@ -3,7 +3,7 @@ import os
 import uuid
 from pathlib import Path
 
-# Имя вашего СТАРОГО файла с историей
+# Имя СТАРОГО файла с историей
 JSON_PATH = "conversations.json" 
 OUT_DIR = Path("my_chats")
 OUT_DIR.mkdir(exist_ok=True) # Создаем папку my_chats, если её нет

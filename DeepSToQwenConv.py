@@ -5,10 +5,9 @@ from openai import OpenAI
 # ================= НАСТРОЙКИ ДЛЯ LM STUDIO =================
 BASE_URL = "http://127.0.0.1:1234/v1"
 API_KEY = "lm-studio"
-# Точное имя модели из вашего скриншота LM Studio (правая панель)
+# Точное имя модели
 MODEL_NAME = "qwen3-vl-8b-instruct" 
 
-# Имя файла, который вы распаковали
 DEEPSEEK_JSON_PATH = "conversations.json" 
 # ============================================================
 
