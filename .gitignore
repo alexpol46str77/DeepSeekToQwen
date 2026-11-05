@@ -1,0 +1,25 @@
+# Личные данные
+my_chats/
+conversations.json
+user.json
+*.zip
+
+# Файлы окружения
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.venv/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# ОС и редакторы
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
